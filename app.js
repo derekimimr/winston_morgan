@@ -16,7 +16,8 @@ app.use(morganLogger);
 
 app.get('/', (req, res) => {
 	// console.log(req)
-	logger.info(`User with token ${req.headers["authorization"] } accessed the home page.`);
+	// logger.info(`User with token ${req.headers["authorization"] } accessed the home page.`);
+	logger.info({ message: "message", status: "status", user: "user1", id: "id1" });
 	res.send('ok!');
 });
 
