@@ -1,0 +1,39 @@
+{
+  level: 'info',
+  message: '::1 - - [10/Oct/2023:09:45:33 +0000] "GET / HTTP/1.1" 200 3 "-" "PostmanRuntime/7.33.0"',
+  metadata: { timestamp: '2023-10-10T09:45:33.069Z' }
+}
+{
+  level: 'info',
+  message: 'User with token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjRmNmNiM2IyNDJhMTEyYzU1YWI1OWViIiwidXNlcm5hbWUiOiJlbXNkIiwiZW1haWwiOiJlbXNkQHRlc3QuY29tIiwicm9sZSI6IkVNU0RDRSIsInRlYW1fcm9sZV9pZCI6IjY0ZjgxZWQ1NzQyOTVlNzdiNWZhNmZkZSIsImRvdWJsaW5nX3JvbGVzIjpbeyJ0ZWFtIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODcyIiwidGVhbV9yb2xlX2lkIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODczIiwiX2lkIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODc2In1dLCJpYXQiOjE2OTU3MjA4OTN9.qcsZDpz2wbHSL841KkhZCqb_RV8mJJktFM0F61z1jSg accessed the home page.',
+  metadata: { timestamp: '2023-10-10T09:49:06.673Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          'content-type': 'test2',
+          authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjRmNmNiM2IyNDJhMTEyYzU1YWI1OWViIiwidXNlcm5hbWUiOiJlbXNkIiwiZW1haWwiOiJlbXNkQHRlc3QuY29tIiwicm9sZSI6IkVNU0RDRSIsInRlYW1fcm9sZV9pZCI6IjY0ZjgxZWQ1NzQyOTVlNzdiNWZhNmZkZSIsImRvdWJsaW5nX3JvbGVzIjpbeyJ0ZWFtIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODcyIiwidGVhbV9yb2xlX2lkIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODczIiwiX2lkIjoiNjRmODE3MDM3NDI5NWU3N2I1ZmE1ODc2In1dLCJpYXQiOjE2OTU3MjA4OTN9.qcsZDpz2wbHSL841KkhZCqb_RV8mJJktFM0F61z1jSg',
+          'user-agent': 'PostmanRuntime/7.33.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'b9418f0f-0c6a-4130-8dc0-04d6f108654a',
+          host: 'localhost:6001',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 5
+    },
+    timestamp: '2023-10-10T09:49:06.681Z'
+  }
+}
